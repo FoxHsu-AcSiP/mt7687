@@ -12,7 +12,7 @@ More information on Linkit SDK official site: http://labs.mediatek.com/site/glob
 
 ### Getting Started
 
-The SDK package supports GCC, Keil, and IAR tool chains. Follow the instructions at <sdk_root>/doc/LinkIt_for_RTOS_Get_Started_Guide.pdf
+The SDK package supports GCC, and Keil tool chains. Follow the instructions at <sdk_root>/doc/LinkIt_for_RTOS_Get_Started_Guide.pdf
 to build your first project and run it on the HDK. Release notes are also under the <sdk_root>/doc folder.
 
 ### Folder Structure
@@ -118,9 +118,6 @@ Solution as below:
 
 **Build in Cygwin NOT support yet.**
 
-### IAR
-
-> TBD
 
 ## Build
 
@@ -176,18 +173,6 @@ Solution as below:
 ## Flashing
 
 **Currently support flashing in Windows ONLY!**
-
-1. Make sure the jumper pins J23, J26, J27, J30 and J33 are connected, as shown below:
-
-   ![HDK Board Jumper Setting](http://labs.mediatek.com/images/linkitRTOS/get_started/setup_hdk_template/jumper_setting.png)
-
-2. Set the board to **Flash Recovery** mode by connecting jumper **J25 (Flash Mode)**, as shown in the following figure:
-
-   ![Flash Recovery Jumper](http://labs.mediatek.com/images/linkitRTOS/get_started/7687_gcc/download_binary/flash_recovery.png)
-
-3. Flashing with `mt76x7-flash-tool.exe` (located at `<sdk_windows_tools>\MT7687_FlashTool_Public\win\mt76x7-flash-tool.exe`)
-
-   ![MT76x7 Flash Tool](http://labs.mediatek.com/images/linkitRTOS/get_started/7687_gcc/download_binary/flashtool_load_ini.png)
 
 > http://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_rtos/get_started/7687_gcc/setup_hdk/index.gsp
 
